@@ -7,7 +7,7 @@ import "./index.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter basename="/HaloChats">
+    <BrowserRouter basename="/Myhalo">
       <App />
     </BrowserRouter>
   </StrictMode>
