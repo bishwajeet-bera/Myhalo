@@ -4,7 +4,7 @@ import path from "path";
 
 export default defineConfig({
 
-  base: "/HaloChats/",
+  base: "/Myhalo/",
 
   server: {
     host: "0.0.0.0",
