@@ -13,7 +13,7 @@
 const isProduction = import.meta.env.PROD;
 
 export const API_HOST = isProduction
-  ? "halochatsbackend.onrender.com"
+  ? import.meta.env.VITE_API_HOST
   : "192.168.1.41";
 
 export const API_PORT = isProduction ? "" : "2000";
